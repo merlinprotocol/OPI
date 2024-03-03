@@ -564,6 +564,8 @@ def check_for_reorg():
   last_block = cur.fetchone()
 
   cur_metaprotocol.execute('select block_height, block_hash from block_hashes where block_height = %s;', (last_block[0],))
+  if cur_metaprotocol.rowcount == 0: return None
+  
   last_block_ord = cur_metaprotocol.fetchone()
   if last_block_ord[1] == last_block[1]: return None ## last block hashes are the same, no reorg
 

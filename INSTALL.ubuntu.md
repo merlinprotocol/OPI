@@ -169,11 +169,11 @@ cd ord; cargo build --release;
 
 ## Initialise .env configuration and databases
 
-Run `reset_init.py` in each module folder (preferrably start from main_index) to initialise .env file, databases and set other necessary files.
+Run `reset_init.py` in each module folder (preferably start from main_index) to initialise .env file, databases and set other necessary files.
 
 # (Optional) Restore from an online backup for faster initial sync
 
-1) Install dependencies: (pbzip2 is optional but greatly impoves decompress speed)
+1) Install dependencies: (pbzip2 is optional but greatly improves decompress speed)
 
 ```bash
 sudo apt update

@@ -14,7 +14,7 @@ Changelog
 - Allow specifying destination for unallocated runes (#2899)
 - Make inscriptions with tag 66 permanently unbound (#2906)
 - Decode transactions from Bitcoin Core with `ord decode --txid` (#2907)
-- Allow skpping indexing inscriptions (#2900)
+- Allow skipping indexing inscriptions (#2900)
 - Add optional deadline to open etchings (#2875)
 
 ### Changed
@@ -32,7 +32,7 @@ Changelog
 - Use enum for inscription tags (#2921)
 - Fix CSP origin for different deployments (#2923)
 - Placate clippy (#2924)
-- Display path to default datadir in help output (#2881)
+- Display a path to default datadir in help output (#2881)
 - Add index repair progress bar (#2904)
 - Listen on 127.0.0.1 to avoid firewall popup on macOS (#2911)
 - Set correct statistic when indexing transactions (#2913)
@@ -989,7 +989,7 @@ Changelog
 - Convert last find integration test to unit test (#580)
 - Make index::custom_index_size test faster (#579)
 - Make info::basic test faster (#578)
-- Convert list unit tests to inegration tests (#572)
+- Convert list unit tests to integration tests (#572)
 - Add prime trait (#563)
 - Rename workflow jobs (#575)
 - Convert some find integration tests to unit tests (#571)

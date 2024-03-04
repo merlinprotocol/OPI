@@ -27,8 +27,8 @@ git clone https://github.com/bestinslot-xyz/OPI.git
 3.a
 ~ In file explorer, navigate to 'This PC', 'C-Drive', 'Program files', 'Bitcoin', 'Daemon'.
    ~ Copy the file path *looks like a search bar with the folders you've opened* 
-~ Go to search, type in 'env' then click on 'Edit the system enviroment variables'
-~ Click 'Enviroment Variables' button near bottom, double-click on 'Path' in bottom window labeled 'System Variables'
+~ Go to search, type in 'env' then click on 'Edit the system environment variables'
+~ Click 'Environment Variables' button near bottom, double-click on 'Path' in bottom window labeled 'System Variables'
 ~ Click 'New', paste in file path, press ok & continue ok out of panels
 
 ## Run BTC Core 
